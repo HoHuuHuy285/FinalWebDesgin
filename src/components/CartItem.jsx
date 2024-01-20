@@ -11,6 +11,9 @@ const CartItem = ({ cartItem }) => {
     dispatch(editItem({ cartID, amount: parseInt(e.target.value) }));
   };
 
+
+  
+
   const { cartID, title, price, image, amount, company, productColor } =
     cartItem;
 
