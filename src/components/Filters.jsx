@@ -47,12 +47,16 @@ const Filters = () => {
         size="checkbox-sm"
       />
       {/* BUTTONS */}
-      <button type="submit" className="btn btn-primary btn-sm">
-        search
-      </button>
-      <Link to="/products" className="btn btn-accent btn-sm">
-        reset
-      </Link>
+      <div className="col-span-2 sm:col-span-1">
+        <button type="submit" className="btn btn-primary btn-block">
+          Search
+        </button>
+      </div>
+      <div className="col-span-2 sm:col-span-1">
+        <Link to="/products" className="btn btn-accent btn-block">
+          Reset
+        </Link>
+      </div>
     </Form>
   );
 };

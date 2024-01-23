@@ -31,7 +31,11 @@ const ProductList = () => {
 
             <p className="font-medium ml-0 sm:ml-auto text-lg">
               {dollarsAmount}
+              <div className="flex justify-center">
+              <button className="btn btn-primary">View Details</button>
+            </div>
             </p>
+            
           </Link>
         );
       })}
