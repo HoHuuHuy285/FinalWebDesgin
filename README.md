@@ -4,8 +4,8 @@
 Install the dependencies and devDependencies:
 
 ```sh
-$ cd FinalWebDesgin
-$ npm i
+cd FinalWebDesgin
+npm i
 ```
 
 Create your .env file and generate the application key:
