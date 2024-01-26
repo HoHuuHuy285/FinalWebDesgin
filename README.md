@@ -22,6 +22,7 @@ $ npm run develop
 Run migrations and start the server:
 
 ```sh
-$ npm run dev
+$ npx create-strapi-app@latest my-project --quickstart
+$ npx create-strapi-app@latest my-project --quickstart
 ```
 # Final-Todo-App
