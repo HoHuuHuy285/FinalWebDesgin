@@ -25,7 +25,7 @@ npm run dev
 ## Ctrl + Shift + ` ( Add new bash ) 
 Chạy file data base 
 ```sh
-$ cd my-project
+cd my-project
 ```
 ```sh
 npm i
