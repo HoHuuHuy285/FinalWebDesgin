@@ -4,7 +4,7 @@
 Install the dependencies and devDependencies:
 
 ```sh
-$ cd final-web-design
+$ cd FinalWebDesgin
 $ npm i
 ```
 
