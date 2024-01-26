@@ -1,16 +1,21 @@
 # TH Store
 
-## How to run the application
-Install the dependencies and devDependencies:
+## Product
+![Products](https://github.com/HoHuuHuy285/FinalWebDesgin/assets/118819624/408333f0-7396-46b8-85fe-f131ae1c4837)
 
+## HomePage
+![HomePage](https://github.com/HoHuuHuy285/FinalWebDesgin/assets/118819624/be13e9a9-ea4b-4a9b-8fba-99055e39986b)
+
+
+## How to run the application
 ```sh
+git clone https://github.com/HoHuuHuy285/FinalWebDesgin.git
 cd FinalWebDesgin
 npm i
 ```
 
-Create your .env file and generate the application key:
-
 ```sh
+$ cd
 $ npm run develop
 ```
 
