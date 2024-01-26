@@ -10,17 +10,34 @@
 ## How to run the application
 ```sh
 git clone https://github.com/HoHuuHuy285/FinalWebDesgin.git
-cd FinalWebDesgin
-npm i
 ```
-
-Run migrations and start the server:
 
 ```sh
-$ npx create-strapi-app@latest my-project --quickstart
-$ cd my-project
-$ npm i
-$ npm audit fix
-$ npm run develop
+cd FinalWebDesgin
 ```
+
+```sh
+npm i
+```
+```sh
+npm run dev 
+```
+## Ctrl + Shift + ` ( Add new bash ) 
+Chạy file data base 
+```sh
+$ cd my-project
+```
+```sh
+npm i
+```
+```sh
+npm audit fix
+```
+```sh
+npm run develop
+```
+```sh
+[npm run develop](http://localhost:1337/admin)http://localhost:1337/admin
+```
+
 # Final-Todo-App
