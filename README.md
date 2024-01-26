@@ -11,7 +11,7 @@ npm i
 Create your .env file and generate the application key:
 
 ```sh
-$ cp .env.example .env
+$ npm develop
 $ php artisan key:generate
 ```
 
