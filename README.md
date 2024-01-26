@@ -14,11 +14,6 @@ cd FinalWebDesgin
 npm i
 ```
 
-```sh
-$ cd
-$ npm run develop
-```
-
 Run migrations and start the server:
 
 ```sh
@@ -26,5 +21,6 @@ $ npx create-strapi-app@latest my-project --quickstart
 $ cd my-project
 $ npm i
 $ npm audit fix
+$ npm run develop
 ```
 # Final-Todo-App
