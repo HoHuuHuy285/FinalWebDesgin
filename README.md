@@ -12,13 +12,11 @@ Create your .env file and generate the application key:
 
 ```sh
 $ npm run develop
-$ php artisan key:generate
 ```
 
 Run migrations and start the server:
 
 ```sh
-$ php artisan migrate
-$ php artisan serve
+$ npm run dev
 ```
 # Final-Todo-App
