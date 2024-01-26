@@ -23,6 +23,8 @@ Run migrations and start the server:
 
 ```sh
 $ npx create-strapi-app@latest my-project --quickstart
-$ npx create-strapi-app@latest my-project --quickstart
+$ cd my-project
+$ npm i
+$ npm audit fix
 ```
 # Final-Todo-App
