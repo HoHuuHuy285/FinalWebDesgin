@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 
 // Thiết lập đối tượng chủ đề
 const themes = {
-  dracula: "dracula",
+  dark: "dark",
   winter: "winter",
 };
 
@@ -38,8 +38,8 @@ const userSlice = createSlice({
       toast.success("Logged out successfully");
     },
     toggleTheme: (state) => {
-      const { dracula, winter } = themes;
-      state.theme = state.theme === dracula ? winter : dracula;
+      const { dark, winter } = themes;
+      state.theme = state.theme === dark ? winter : dark;
       document.documentElement.setAttribute("data-theme", state.theme);
       localStorage.setItem("theme", state.theme);
     },
