@@ -1,13 +1,24 @@
-# Store
+# TH Store
 
-## Demo
+## How to run the application
+Install the dependencies and devDependencies:
 
-![PixPin_2024-01-17_23-36-28](https://github.com/HoHuuHuy285/FinalWebDesgin/assets/118819624/2083f2ba-93bd-4428-ad30-2209ddd71854)
+```sh
+$ cd final-web-design
+$ npm i
+```
 
-## HomePage 
+Create your .env file and generate the application key:
 
-![PixPin_2024-01-17_23-31-34](https://github.com/HoHuuHuy285/FinalWebDesgin/assets/118819624/8fce862a-be92-4d7c-9e28-93daac4cf01b)
+```sh
+$ cp .env.example .env
+$ php artisan key:generate
+```
 
-## Products
+Run migrations and start the server:
 
-![Products](https://github.com/HoHuuHuy285/FinalWebDesgin/assets/118819624/e475ed51-cece-4d1e-a9af-7d3b0381ac2e)
+```sh
+$ php artisan migrate
+$ php artisan serve
+```
+# Final-Todo-App
