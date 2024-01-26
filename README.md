@@ -37,7 +37,7 @@ npm audit fix
 npm run develop
 ```
 ```sh
-[npm run develop](http://localhost:1337/admin)http://localhost:1337/admin
+http://localhost:1337/admin)http://localhost:1337/admin
 ```
 
-# Final-Todo-App
+# Final-Web-Design
